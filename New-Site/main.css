@@ -1,0 +1,120 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+
+}
+
+.mainSection{
+    width:100vw;
+    background : linear-gradient(
+    rgba(255, 60, 86, 0.75),
+    rgba(255, 60, 86,0.75)
+    ),url(bg.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    height:50vh;
+    color:white;
+    position: relative;
+    top:-35px;
+
+}
+
+.mainSection h1, .mainSection p{
+
+    position:relative;
+    top:30%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+
+
+}
+
+.mainSection h1 {
+    font-size: 50px;
+}
+
+.carrot img {
+    width:70px;
+    height:30px;
+}
+.carrot {
+    position:absolute;
+    bottom:0;
+    left:48%;
+
+    width:100px;
+
+}
+footer{
+    position:fixed;
+    height:20px;
+    width:100vw;
+    bottom: 0;
+    background-color: black;
+    color:white;
+    margin:0;
+
+}
+footer p {
+    margin-top:5px;
+    margin-left:50px;
+    font-size: 80%;
+}
+.infoSection {
+    text-align: center;
+    background-color: whitesmoke;
+    height:40vh;
+    position: relative;
+    top:-55px;
+
+}
+.infoSection h2{
+    padding-top: 50px;
+}
+
+.box{
+    width:20%;
+    display:inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.pic {
+    background-color: lightgray;
+    border-radius: 100%;
+    width:200px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.pic i{
+    font-size: 500%;
+    color: #E04A50;
+    margin-top: 20%;
+    margin-bottom:5% ;
+}
+
+.box .fa:hover {
+    color: green;
+    font-size:550%;
+}
+
+@media (max-width : 900px){
+    .box {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width:50%;
+        margin-bottom: 30px;
+    }
+}
